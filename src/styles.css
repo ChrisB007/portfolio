@@ -11,3 +11,18 @@ svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
     position: relative;
     left: 100%;
 }
+
+.frontendbg{
+    background-color: #f05454;
+}
+.backendbg{
+    background-color: #111827;
+}
+
+.visitsite{
+    background-color: #495464;
+}
+
+.github{
+    background-color: #000;
+}

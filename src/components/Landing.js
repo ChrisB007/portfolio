@@ -138,7 +138,7 @@ const Landing= props => {
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <a href="#">
                     <span className="sr-only">Workflow</span>
-                    <p className="logo text-4xl">chrisBitoye</p>
+                    <p className="logo text-4xl shadow-sm text-gray-800">chrisBitoye</p>
                   </a>
                 </div>
               </div>
@@ -156,29 +156,29 @@ const Landing= props => {
               <div className="absolute inset-0">
 
                 <div
-                  className="absolute inset-0 bg-gradient-to-r from-gray-700 via-gray-900 to-black"
+                  className="absolute inset-0 bg-gradient-to-r from-gray-400 via-gray-600 to-gray-900"
                   style={{ mixBlendMode: 'multiply' }}
                 />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                   <span className="block text-white">Hey, I'm Chris.</span>
-                  <span className="block text-indigo-200">Full Stack Engineer.</span>
+                  <span className="block text-gray-100 ">A FullStack Engineer.</span>
                 </h1>
-                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
+                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
                 I specialize in NERDS (Node.js, Express, React, Databases using SQL. | NoSQL) stack.
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                     <a
                       href="#"
-                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"
+                      className="frontendbg flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:text-black hover:bg-red-100 sm:px-8"
                     >
                       FrontEnd
                     </a>
                     <a
                       href="#"
-                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+                      className="backendbg flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                     >
                       BackEnd
                     </a>
@@ -224,6 +224,34 @@ const Landing= props => {
                   alt="NextJS"
                 />
               </div>
+              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <img
+                  className="h-12"
+                  src="/images/django.png"
+                  alt="Django"
+                />
+              </div>
+              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <img
+                  className="h-12"
+                  src="/images/gatsby.png"
+                  alt="GatsbyJS"
+                />
+              </div>
+              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <img
+                  className="h-12"
+                  src="/images/postgresql.png"
+                  alt="postgresql"
+                />
+              </div>
+              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <img
+                  className="h-12"
+                  src="/images/mongodb.png"
+                  alt="MongoDB"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -236,29 +264,28 @@ const Landing= props => {
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                 <div>
                   <div>
-                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gray-800 bg-opacity-50">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                     </span>
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                      Stay on top of customer support
+                      PublicTrades
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
-                      Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                      porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at.
-                      Lectus viverra dui tellus ornare pharetra.
+                      I have always wanted to be part of a startup accelerator to some capacity, so I built a simple one to host all my projects. PublicTrades was built on NextJS, 
+                      ProsgreSQL (Sequelize for ORM), tailwindcss.
                     </p>
                     <div className="mt-6">
                       <a
                         href="#"
-                        className="inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                        className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         Visit Project site
                       </a>
                       <a
                         href="#"
-                        className="inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                        className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         On GitHub
                       </a>
@@ -284,29 +311,28 @@ const Landing= props => {
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                 <div>
                   <div>
-                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gray-800 bg-opacity-50">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                     </span>
                   </div>
                   <div className="mt-6">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                      Better understand your customers
+                      mOOdFlics
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
-                      Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                      porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at.
-                      Lectus viverra dui tellus ornare pharetra.
+                      Watch movies, tv, and stream contents based on how you feel. This web app was developed with cutting-edge technologies such as 
+                      ReactJS, MongoDB, OAuth, AJAX, WEB API, NodeJS | Express
                     </p>
                     <div className="mt-6">
                       <a
                         href="#"
-                        className="inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                        className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         Visit Project site
                       </a>
                       <a
                         href="#"
-                        className="inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                        className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         On GitHub
                       </a>
@@ -328,12 +354,11 @@ const Landing= props => {
         </div>
 
         {/* Gradient Feature Section */}
-        <div className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+        <div className="frontendbg">
           <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight">FrontEnd</h2>
+            <h2 className="text-3xl font-extrabold text-white tracking-tight">Front-End</h2>
             <p className="mt-4 max-w-3xl text-lg text-purple-200">
-              Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit
-              aliquam sit nisl euismod mattis in.
+              Below is a list of other projects I have done using various front-end technologies.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (
@@ -368,7 +393,7 @@ const Landing= props => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
             <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
               <p className="mt-3 text-3xl font-extrabold text-white">
-                BackEnd
+                Back-End
               </p>
               <p className="mt-5 text-lg text-gray-300">
                 Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare
