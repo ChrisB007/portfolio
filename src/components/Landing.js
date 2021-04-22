@@ -1,65 +1,62 @@
 import React from 'react';
 import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Popover } from '@headlessui/react'
 import {
-  AnnotationIcon,
-  ChatAlt2Icon,
-  ChatAltIcon,
-  DocumentReportIcon,
-  HeartIcon,
   InboxIcon,
-  MenuIcon,
   PencilAltIcon,
-  QuestionMarkCircleIcon,
-  ReplyIcon,
-  SparklesIcon,
   TrashIcon,
   UsersIcon,
-  XIcon,
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+// import { ChevronDownIcon } from '@heroicons/react/solid'
 
-const solutions = [
-  {
-    name: 'Inbox',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: InboxIcon,
-  },
-  {
-    name: 'Messaging',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: AnnotationIcon,
-  },
-  { name: 'Live Chat', description: "Your customers' data will be safe and secure.", href: '#', icon: ChatAlt2Icon },
-  {
-    name: 'Knowledge Base',
-    description: "Connect with third-party tools that you're already using.",
-    href: '#',
-    icon: QuestionMarkCircleIcon,
-  },
-]
+// const solutions = [
+//   {
+//     name: 'Inbox',
+//     description: 'Get a better understanding of where your traffic is coming from.',
+//     href: '#',
+//     icon: InboxIcon,
+//   },
+//   {
+//     name: 'Messaging',
+//     description: 'Speak directly to your customers in a more meaningful way.',
+//     href: '#',
+//     icon: AnnotationIcon,
+//   },
+//   { name: 'Live Chat', description: "Your customers' data will be safe and secure.", href: '#', icon: ChatAlt2Icon },
+//   {
+//     name: 'Knowledge Base',
+//     description: "Connect with third-party tools that you're already using.",
+//     href: '#',
+//     icon: QuestionMarkCircleIcon,
+//   },
+// ]
 const features = [
   {
-    name: 'Unlimited Inboxes',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'ForgedMart',
+    description: 'Marketplace for 3D laser printed products',
     icon: InboxIcon,
+    github: 'url',
+    website: 'url'
   },
   {
     name: 'Manage Team Members',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: UsersIcon,
+    github: 'url',
+    website: 'url'
   },
   {
     name: 'Spam Report',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: TrashIcon,
+    github: 'url',
+    website: 'url'
   },
   {
     name: 'Compose in Markdown',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: PencilAltIcon,
+    
   },
 ]
 const metrics = [
@@ -119,10 +116,6 @@ const footerNavigation = {
   ],
 }
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 
 
 const Landing= props => {
@@ -136,7 +129,7 @@ const Landing= props => {
             <>
               <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
-                  <a href="#">
+                  <a href="/">
                     <span className="sr-only">Workflow</span>
                     <p className="logo text-4xl shadow-sm text-gray-800">chrisBitoye</p>
                   </a>
@@ -171,13 +164,13 @@ const Landing= props => {
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                     <a
-                      href="#"
+                      href="#frontendportfolio"
                       className="frontendbg flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:text-black hover:bg-red-100 sm:px-8"
                     >
                       FrontEnd
                     </a>
                     <a
-                      href="#"
+                      href="#backendportfolio"
                       className="backendbg flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                     >
                       BackEnd
@@ -278,13 +271,13 @@ const Landing= props => {
                     </p>
                     <div className="mt-6">
                       <a
-                        href="#"
+                        href="https://www.publictrades.com/" target="blank"
                         className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         Visit Project site
                       </a>
                       <a
-                        href="#"
+                        href="https://github.com/ChrisB007/publicTrades" target="blank"
                         className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         On GitHub
@@ -355,10 +348,10 @@ const Landing= props => {
 
         {/* Gradient Feature Section */}
         <div className="frontendbg">
-          <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+          <div id="frontendportfolio" className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
             <h2 className="text-3xl font-extrabold text-white tracking-tight">Front-End</h2>
-            <p className="mt-4 max-w-3xl text-lg text-purple-200">
-              Below is a list of other projects I have done using various front-end technologies.
+            <p className="mt-4 max-w-3xl text-lg text-gray-100">
+              Below is a list of other projects I have worked on using various front-end technologies.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (
@@ -370,7 +363,7 @@ const Landing= props => {
                   </div>
                   <div className="mt-6">
                     <h3 className="text-lg font-medium text-white">{feature.name}</h3>
-                    <p className="mt-2 text-base text-purple-200">{feature.description}</p>
+                    <p className="mt-2 text-base text-gray-100">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -391,7 +384,7 @@ const Landing= props => {
             </div>
           </div>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-            <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+            <div id="backendportfolio" className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
               <p className="mt-3 text-3xl font-extrabold text-white">
                 Back-End
               </p>
