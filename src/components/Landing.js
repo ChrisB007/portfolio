@@ -13,7 +13,7 @@ const features = [
   },
   {
     name: 'tuberDome',
-    description: 'Connect with and sponsor creators on social media platform like YouTube | Tech: NextJS, DatoCMS',
+    description: 'Connect directly with and sponsor creators on social media platform like YouTube | Tech: NextJS, DatoCMS',
     image: "/images/tuberdome.png",
     github: 'url',
     website: 'url'
@@ -169,42 +169,42 @@ const Landing= props => {
                   alt="Python"
                 />
               </div>
-              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/next.png"
                   alt="NextJS"
                 />
               </div>
-              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/django.png"
                   alt="Django"
                 />
               </div>
-              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/passport.png"
                   alt="PassportJS"
                 />
               </div>
-              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/postgresql.png"
                   alt="postgresql"
                 />
               </div>
-              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/mongodb.png"
                   alt="MongoDB"
                 />
               </div>
-              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/tensorflow.png"
