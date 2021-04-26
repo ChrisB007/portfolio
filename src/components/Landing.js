@@ -6,28 +6,28 @@ import {Link} from 'react-scroll';
 const features = [
   {
     name: 'Garage-API',
-    description: 'API platform to host all of my RESTful API that I developed',
+    description: 'API platform to host all of my RESTful API that I developed | Tech: Django ',
     image: "/images/api.png",
     github: 'url',
     website: 'url'
   },
   {
     name: 'tuberDome',
-    description: 'Connect with and sponsor creators on social media platform like YouTube',
+    description: 'Connect with and sponsor creators on social media platform like YouTube | Tech: NextJS, DatoCMS',
     image: "/images/tuberdome.png",
     github: 'url',
     website: 'url'
   },
   {
     name: 'MentorsParlor',
-    description: 'Find true one-on-one mentorship from experts who can relate to you',
+    description: 'Find true one-on-one mentorship from experts who can relate to you. | Tech: NextJS, Contentful',
     image: "/images/mentors.png",
     github: 'url',
     website: 'url'
   },
   {
     name: 'Cyber Neighbors',
-    description: 'A community for apartment buildings and neighborhood at large.',
+    description: 'A community for apartment buildings and neighborhood at large. | Tech: NextJS, Contentful',
     image: "/images/neighbors.png",
     github: 'url',
     website: 'url'
@@ -187,7 +187,7 @@ const Landing= props => {
               <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
-                  src="/images/NEXT.png"
+                  src="/images/next.png"
                   alt="NextJS"
                 />
               </div>
