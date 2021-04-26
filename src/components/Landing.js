@@ -13,21 +13,21 @@ const features = [
   },
   {
     name: 'tuberDome',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Connect with and sponsor creators on social media platform like YouTube',
     image: "/images/tuberdome.png",
     github: 'url',
     website: 'url'
   },
   {
     name: 'MentorsParlor',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'Find true one-on-one mentorship from experts who have walked down your path',
     image: "/images/mentors.png",
     github: 'url',
     website: 'url'
   },
   {
     name: 'Cyber Neighbors',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'A community for apartment buildings and neighborhood at large.',
     image: "/images/neighbors.png",
     github: 'url',
     website: 'url'
