@@ -6,38 +6,42 @@ import {Link} from 'react-scroll';
 const features = [
   {
     name: 'Garage-API',
-    description: 'API platform that hosts all of my RESTful API I developed & launched | Tech: Django ',
+    description: 'API platform that hosts all of my RESTful API I developed & launched. ',
     image: "/images/api.png",
     github: 'url',
-    website: 'url'
+    website: 'url',
+    tech: 'Django'
   },
   {
     name: 'tuberDome',
-    description: 'Connect directly with and sponsor creators on social media platform like YouTube | Tech: NextJS, DatoCMS',
+    description: 'Connect directly with and sponsor creators on social media platform like YouTube.',
     image: "/images/tuberdome.png",
     github: 'url',
-    website: 'url'
+    website: 'url',
+    tech: 'Tech: NextJS, DatoCMS'
   },
   {
     name: 'MentorsParlor',
-    description: 'Find true one-on-one mentorship from experts who can relate to you. | Tech: ReactJS, Contentful',
+    description: 'Find true one-on-one mentorship from experts who can relate to you.',
     image: "/images/mentors.png",
     github: 'url',
-    website: 'url'
+    website: 'url',
+    tech: 'Tech: NextJS, Contentful'
   },
   {
     name: 'Cyber Neighbors',
-    description: 'A community for apartment buildings and neighborhood at large. | Tech: NextJS, Contentful',
+    description: 'A community for apartment buildings and neighborhood at large.',
     image: "/images/neighbors.png",
     github: 'url',
-    website: 'url'
+    website: 'url',
+    tech: 'Tech: NextJS, Contentful'
   },
 ]
 const metrics = [
-  { id: 1, stat: 'NodeJS', emphasis: 'Companies', rest: 'use laoreet amet lacus nibh integer quis.' },
-  { id: 2, stat: 'Python', emphasis: 'Countries around the globe', rest: 'lacus nibh integer quis.' },
-  { id: 3, stat: 'NoSQL', emphasis: 'Customer satisfaction', rest: 'laoreet amet lacus nibh integer quis.' },
-  { id: 4, stat: 'SQL', emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
+  { id: 1, stat: 'NodeJS', emphasis: 'Backend', rest: 'https://nodejs.org/' },
+  { id: 2, stat: 'Python', emphasis: 'Backend', rest: 'https://www.python.org/' },
+  { id: 3, stat: 'NoSQL', emphasis: 'Backend', rest: 'https://en.wikipedia.org/wiki/NoSQL' },
+  { id: 4, stat: 'SQL', emphasis: 'Backend', rest: 'https://en.wikipedia.org/wiki/SQL' },
 ]
 const footerNavigation = {
   social: [
@@ -326,6 +330,7 @@ const Landing= props => {
                   <div className="mt-5">
                     <h3 className="text-lg font-medium text-white">{feature.name}</h3>
                     <p className="mt-2 text-base text-gray-100">{feature.description}</p>
+                    <p className="mt-2 text-base text-gray-100">{feature.tech}</p>
                   </div>
                 </div>
               ))}
