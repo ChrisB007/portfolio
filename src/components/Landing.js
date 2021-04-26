@@ -284,13 +284,13 @@ const Landing= props => {
                     </p>
                     <div className="mt-6">
                       <a
-                        href="/"
+                        href="https://www.moodflics.com/" target="blank"
                         className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         Visit Project site
                       </a>
                       <a
-                        href="/"
+                        href="https://github.com/ChrisB007/moodflics" target="blank"
                         className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         On GitHub
