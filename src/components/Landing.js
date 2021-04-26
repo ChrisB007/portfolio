@@ -20,7 +20,7 @@ const features = [
   },
   {
     name: 'MentorsParlor',
-    description: 'Find true one-on-one mentorship from experts who can relate to you. | Tech: NextJS, Contentful',
+    description: 'Find true one-on-one mentorship from experts who can relate to you. | Tech: ReactJS, Contentful',
     image: "/images/mentors.png",
     github: 'url',
     website: 'url'
