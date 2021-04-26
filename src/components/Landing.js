@@ -146,7 +146,7 @@ const Landing= props => {
         <div className="bg-gray-100">
           <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-              Some of the tools that I use proficiently
+              Some of the tools I use proficiently
             </p>
             <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
@@ -156,55 +156,51 @@ const Landing= props => {
                 <img className="h-12" src="/images/expressjs.svg" alt="ExpressJS" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
-                  className="h-12"
-                  src="/images/react.png"
-                  alt="ReactJS"
-                />
+                <img className="h-12" src="/images/react.png" alt="ReactJS" />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/python.png"
                   alt="Python"
                 />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/next.png"
                   alt="NextJS"
                 />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/django.png"
                   alt="Django"
                 />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/passport.png"
                   alt="PassportJS"
                 />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/postgresql.png"
                   alt="postgresql"
                 />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/mongodb.png"
                   alt="MongoDB"
                 />
               </div>
-              <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
                   src="/images/tensorflow.png"
