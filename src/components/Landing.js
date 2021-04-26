@@ -342,7 +342,7 @@ const Landing= props => {
                       <img className="projend my-8 rounded-lg" src={feature.image} alt={feature.name} />
                     </span>
                   </div>
-                  <div className="mt-20">
+                  <div className="mt-5">
                     <h3 className="text-lg font-medium text-white">{feature.name}</h3>
                     <p className="mt-2 text-base text-gray-100">{feature.description}</p>
                   </div>
