@@ -1,69 +1,43 @@
 import React from 'react';
-import { Fragment } from 'react'
-import { Popover } from '@headlessui/react'
-import {
-  InboxIcon,
-  PencilAltIcon,
-  TrashIcon,
-  UsersIcon,
-} from '@heroicons/react/outline'
-// import { ChevronDownIcon } from '@heroicons/react/solid'
+import { Fragment } from 'react';
+import { Popover } from '@headlessui/react';
+import {Link} from 'react-scroll';
 
-// const solutions = [
-//   {
-//     name: 'Inbox',
-//     description: 'Get a better understanding of where your traffic is coming from.',
-//     href: '#',
-//     icon: InboxIcon,
-//   },
-//   {
-//     name: 'Messaging',
-//     description: 'Speak directly to your customers in a more meaningful way.',
-//     href: '#',
-//     icon: AnnotationIcon,
-//   },
-//   { name: 'Live Chat', description: "Your customers' data will be safe and secure.", href: '#', icon: ChatAlt2Icon },
-//   {
-//     name: 'Knowledge Base',
-//     description: "Connect with third-party tools that you're already using.",
-//     href: '#',
-//     icon: QuestionMarkCircleIcon,
-//   },
-// ]
 const features = [
   {
-    name: 'ForgedMart',
+    name: 'Garage-API',
     description: 'Marketplace for 3D laser printed products',
-    icon: InboxIcon,
+    image: "/images/api.png",
     github: 'url',
     website: 'url'
   },
   {
-    name: 'Manage Team Members',
+    name: 'tuberDome',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: UsersIcon,
+    image: "/images/tuberdome.png",
     github: 'url',
     website: 'url'
   },
   {
-    name: 'Spam Report',
+    name: 'MentorsParlor',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: TrashIcon,
+    image: "/images/mentors.png",
     github: 'url',
     website: 'url'
   },
   {
-    name: 'Compose in Markdown',
+    name: 'Cyber Neighbors',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: PencilAltIcon,
-    
+    image: "/images/neighbors.png",
+    github: 'url',
+    website: 'url'
   },
 ]
 const metrics = [
-  { id: 1, stat: '8K+', emphasis: 'Companies', rest: 'use laoreet amet lacus nibh integer quis.' },
-  { id: 2, stat: '25K+', emphasis: 'Countries around the globe', rest: 'lacus nibh integer quis.' },
-  { id: 3, stat: '98%', emphasis: 'Customer satisfaction', rest: 'laoreet amet lacus nibh integer quis.' },
-  { id: 4, stat: '12M+', emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
+  { id: 1, stat: 'NodeJS', emphasis: 'Companies', rest: 'use laoreet amet lacus nibh integer quis.' },
+  { id: 2, stat: 'Python', emphasis: 'Countries around the globe', rest: 'lacus nibh integer quis.' },
+  { id: 3, stat: 'NoSQL', emphasis: 'Customer satisfaction', rest: 'laoreet amet lacus nibh integer quis.' },
+  { id: 4, stat: 'SQL', emphasis: 'Issues resolved', rest: 'lacus nibh integer quis.' },
 ]
 const footerNavigation = {
   solutions: [
@@ -122,7 +96,7 @@ const Landing= props => {
     return (
         <>
 
-<div className="bg-white">
+<div id="top" className="bg-white">
       <header>
         <Popover className="relative bg-white">
           {({ open }) => (
@@ -163,18 +137,18 @@ const Landing= props => {
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                    <a
-                      href="#frontendportfolio"
+                    <Link id="tofrontend"
+                      to="frontendportfolio" smooth={true} duration={3000}
                       className="frontendbg flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:text-black hover:bg-red-100 sm:px-8"
                     >
                       FrontEnd
-                    </a>
-                    <a
-                      href="#backendportfolio"
+                    </Link>
+                    <Link id="tobackend"
+                      to="backendportfolio" smooth={true} duration={3000}
                       className="backendbg flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                     >
                       BackEnd
-                    </a>
+                    </Link>
                     <svg class="flex items-center justify-center animate-bounce w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg>
                   </div>
                 </div>
@@ -227,8 +201,8 @@ const Landing= props => {
               <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
                 <img
                   className="h-12"
-                  src="/images/gatsby.png"
-                  alt="GatsbyJS"
+                  src="/images/passport.png"
+                  alt="PassportJS"
                 />
               </div>
               <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
@@ -245,6 +219,13 @@ const Landing= props => {
                   alt="MongoDB"
                 />
               </div>
+              <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
+                <img
+                  className="h-12"
+                  src="/images/tensorflow.png"
+                  alt="TensorFlow"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -252,7 +233,7 @@ const Landing= props => {
         {/* Alternating Feature Sections */}
         <div className="relative pt-16 pb-32 overflow-hidden">
           <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
-          <div className="relative">
+          <div id="projectone" className="relative">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                 <div>
@@ -299,7 +280,7 @@ const Landing= props => {
               </div>
             </div>
           </div>
-          <div className="mt-24">
+          <div id="projecttwo" className="mt-24">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
               <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                 <div>
@@ -314,17 +295,17 @@ const Landing= props => {
                     </h2>
                     <p className="mt-4 text-lg text-gray-500">
                       Watch movies, tv, and stream contents based on how you feel. This web app was developed with cutting-edge technologies such as 
-                      ReactJS, MongoDB, OAuth, AJAX, WEB API, NodeJS | Express
+                      ReactJS, MongoDB, OAuth, AJAX, WEB API, NodeJS | Express, TensorFlow
                     </p>
                     <div className="mt-6">
                       <a
-                        href="#"
+                        href="/"
                         className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         Visit Project site
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                       >
                         On GitHub
@@ -351,17 +332,17 @@ const Landing= props => {
           <div id="frontendportfolio" className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
             <h2 className="text-3xl font-extrabold text-white tracking-tight">Front-End</h2>
             <p className="mt-4 max-w-3xl text-lg text-gray-100">
-              Below is a list of other projects I have worked on using various front-end technologies.
+              Below is a list of other projects I developed using various front-end technologies.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (
                 <div key={feature.name}>
                   <div>
-                    <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                      <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                    <span className="items-center m-6 justify-center h-12 rounded-md bg-white bg-opacity-10">
+                      <img className="projend my-8 rounded-lg" src={feature.image} alt={feature.name} />
                     </span>
                   </div>
-                  <div className="mt-6">
+                  <div className="mt-20">
                     <h3 className="text-lg font-medium text-white">{feature.name}</h3>
                     <p className="mt-2 text-base text-gray-100">{feature.description}</p>
                   </div>
@@ -374,13 +355,7 @@ const Landing= props => {
         {/* Stats section */}
         <div className="relative bg-gray-900">
           <div className="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
-            <div className="h-full w-full xl:grid xl:grid-cols-2">
-              <div className="h-full xl:relative xl:col-start-2">
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
-                />
-              </div>
+            <div className="h-full w-full xl:grid xl:grid-cols-2">         
             </div>
           </div>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
@@ -389,9 +364,7 @@ const Landing= props => {
                 Back-End
               </p>
               <p className="mt-5 text-lg text-gray-300">
-                Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare
-                feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet
-                lacus nibh integer quis. Eu vulputate diam sit tellus quis at.
+                As I continue adding more projects, learning and using more technologies; these are some of the technologies powering the above projects.
               </p>
               <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
                 {metrics.map((item) => (
@@ -409,48 +382,7 @@ const Landing= props => {
       </main>
 
       <footer className="bg-gray-50" aria-labelledby="footerHeading">
-        <h2 id="footerHeading" className="sr-only">
-          Footer
-        </h2>
-        <div className="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8">
-          <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-            <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                {/* Something can go here*/}
-              </div>
-            </div>
-            <div className="mt-12 xl:mt-0">
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Subscribe to our newsletter
-              </h3>
-              <p className="mt-4 text-base text-gray-500">
-                The latest news, articles, and resources, sent to your inbox weekly.
-              </p>
-              <form className="mt-4 sm:flex sm:max-w-md">
-                <label htmlFor="emailAddress" className="sr-only">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  name="emailAddress"
-                  id="emailAddress"
-                  autoComplete="email"
-                  required
-                  className="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
-                  placeholder="Enter your email"
-                />
-                <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                  <button
-                    type="submit"
-                    className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
+        <div className="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8">
           <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
             <div className="flex space-x-6 md:order-2">
               {footerNavigation.social.map((item) => (

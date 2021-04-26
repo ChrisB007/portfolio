@@ -19,10 +19,23 @@ svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
     background-color: #111827;
 }
 
+#tofrontend, #tobackend {
+    cursor: pointer;
+}
+
+.contactform{
+    margin: auto;
+    top: 18%;
+}
+
 .visitsite{
     background-color: #495464;
 }
 
 .github{
     background-color: #000;
+}
+.projend{
+    width: 65%;
+    margin: auto;
 }
