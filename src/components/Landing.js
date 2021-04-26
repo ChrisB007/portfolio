@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 const features = [
   {
     name: 'Garage-API',
-    description: 'Marketplace for 3D laser printed products',
+    description: 'API platform to host collection of my APIs',
     image: "/images/api.png",
     github: 'url',
     website: 'url'
