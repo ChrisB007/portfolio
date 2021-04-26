@@ -20,7 +20,7 @@ const features = [
   },
   {
     name: 'MentorsParlor',
-    description: 'Find true one-on-one mentorship from experts who have walked down your path',
+    description: 'Find true one-on-one mentorship from experts who can relate to you',
     image: "/images/mentors.png",
     github: 'url',
     website: 'url'
