@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 const features = [
   {
     name: 'Garage-API',
-    description: 'API platform to host collection of my APIs',
+    description: 'API platform to host all of my RESTful API that I built and launched',
     image: "/images/api.png",
     github: 'url',
     website: 'url'
