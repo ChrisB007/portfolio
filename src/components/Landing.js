@@ -344,7 +344,7 @@ const Landing= props => {
             <div className="h-full w-full xl:grid xl:grid-cols-2">         
             </div>
           </div>
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-1 xl:grid-flow-col-dense xl:gap-x-8">
             <div id="backendportfolio" className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
               <p className="mt-3 text-3xl font-extrabold text-white">
                 Back-End
