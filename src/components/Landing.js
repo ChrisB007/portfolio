@@ -94,7 +94,7 @@ const Landing= props => {
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <a href="/">
                     <span className="sr-only">Workflow</span>
-                    <p className="logo text-4xl shadow-sm text-gray-800">&lt;chrisBitoye &frasl; &gt;</p>
+                    <p className="logo text-4xl shadow-sm text-gray-800">&lt;chrisBitoye&frasl;&gt;</p>
                   </a>
                 </div>
               </div>
