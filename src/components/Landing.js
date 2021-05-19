@@ -29,12 +29,12 @@ const features = [
     tech: 'Tech: NextJS, Contentful'
   },
   {
-    name: 'Cyber Neighbors',
-    description: 'A community for apartment buildings and neighborhood at large.',
-    image: "/images/neighbors.png",
-    github: 'url',
-    website: 'url',
-    tech: 'Tech: NextJS, Contentful'
+    name: 'Project Portfolio',
+    description: 'My online portfolio showcasing projects that I have worked on.',
+    image: "/images/projectport.png",
+    github: 'https://github.com/ChrisB007/portfolio',
+    website: 'https://chrisb.app',
+    tech: 'Tech: React, TailwindCSS'
   },
 ]
 const metrics = [
