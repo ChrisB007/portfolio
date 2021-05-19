@@ -5,12 +5,12 @@ import {Link} from 'react-scroll';
 
 const features = [
   {
-    name: 'Garage-API',
+    name: 'JustData',
     description: 'API platform that hosts all of my RESTful API I developed & launched. ',
-    image: "/images/api.png",
-    github: 'url',
-    website: 'url',
-    tech: 'Django'
+    image: "/images/justdata.png",
+    github: 'https://github.com/ChrisB007/onboarding',
+    website: 'https://data-collector.netlify.app/',
+    tech: 'Tech: Vanilla JS, Bootstrap, CSS'
   },
   {
     name: 'tuberDome',
@@ -330,6 +330,8 @@ const Landing= props => {
                   <div className="mt-5">
                     <h3 className="text-lg font-medium text-white">{feature.name}</h3>
                     <p className="mt-2 text-base text-gray-100">{feature.description}</p>
+                    <p className="mt-2 text-base text-gray-100">{feature.github}</p>
+                    <p className="mt-2 text-base text-gray-100">{feature.website}</p>
                     <p className="mt-2 text-base text-gray-100">{feature.tech}</p>
                   </div>
                 </div>
