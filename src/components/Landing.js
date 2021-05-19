@@ -14,7 +14,7 @@ const features = [
   },
   {
     name: 'tuberDome',
-    description: 'Connect directly with and sponsor creators on social media platform like YouTube.',
+    description: 'Connect directly with and sponsor creators on social media platforms.',
     image: "/images/tuberdome.png",
     github: 'url',
     website: 'url',
