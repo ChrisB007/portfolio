@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 const features = [
   {
     name: 'JustData',
-    description: 'A simple survey form for gathering client data',
+    description: 'A simple survey form for collection client data',
     image: "/images/justdata.png",
     github: 'https://github.com/ChrisB007/onboarding',
     website: 'https://data-collector.netlify.app/',
@@ -330,8 +330,8 @@ const Landing= props => {
                   <div className="mt-5">
                     <h3 className="text-lg font-medium text-white">{feature.name}</h3>
                     <p className="mt-2 text-base text-gray-100">{feature.description}</p>
-                    <p className="mt-2 text-base text-gray-100"><a href={feature.github}>On github</a></p>
-                    <p className="mt-2 text-base text-gray-100"><a href={feature.website}>Visit Website</a></p>
+                    <p className="mt-2 text-base text-gray-100 frontbutton"><a href={feature.github}>On github</a></p>
+                    <p className="mt-2 text-base text-gray-100 frontbutton"><a href={feature.website}>Visit Website</a></p>
                     <p className="mt-2 text-base text-gray-100">{feature.tech}</p>
                   </div>
                 </div>

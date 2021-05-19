@@ -43,3 +43,9 @@ svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
     margin: auto;
     height: 115px;
 }
+
+.frontbutton {
+    background-color: black;
+    width: 126px;
+    height: 42px;
+}
