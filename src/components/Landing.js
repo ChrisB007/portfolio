@@ -328,11 +328,11 @@ const Landing= props => {
                     </span>
                   </div>
                   <div className="mt-5">
-                    <h3 className="text-lg font-medium text-white">{feature.name}</h3>
-                    <p className="mt-2 text-base text-gray-100">{feature.description}</p>
+                    <h3 className="text-lg font-medium text-white text-center">{feature.name}</h3>
+                    <p className="mt-2 text-base text-gray-100 text-center">{feature.description}</p>
                     <p className="mt-2 text-base text-gray-100 frontbutton justify-center items-center text-center"><a href={feature.github} target="blank">On github</a></p>
                     <p className="mt-2 text-base text-gray-100 frontbutton justify-center items-center text-center"><a href={feature.website} target="blank">Visit Website</a></p>
-                    <p className="mt-2 text-base text-gray-100">{feature.tech}</p>
+                    <p className="mt-2 text-base text-gray-100 text-center">{feature.tech}</p>
                   </div>
                 </div>
               ))}
