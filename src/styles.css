@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
 
-.logo{
+.logo {
     font-family: 'Lobster Two', cursive;
 }
 
@@ -12,30 +12,34 @@ svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
     left: 100%;
 }
 
-.frontendbg{
+.frontendbg {
     background-color: #f05454;
 }
-.backendbg{
+
+.backendbg {
     background-color: #111827;
 }
 
-#tofrontend, #tobackend {
+#tofrontend,
+#tobackend {
     cursor: pointer;
 }
 
-.contactform{
+.contactform {
     margin: auto;
     top: 18%;
 }
 
-.visitsite{
+.visitsite {
     background-color: #495464;
 }
 
-.github{
+.github {
     background-color: #000;
 }
-.projend{
+
+.projend {
     width: 65%;
     margin: auto;
+    height: 115px;
 }
