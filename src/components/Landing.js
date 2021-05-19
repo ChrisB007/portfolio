@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 const features = [
   {
     name: 'JustData',
-    description: 'A simple survey form for collection client data',
+    description: 'A simple survey form for collecting client data',
     image: "/images/justdata.png",
     github: 'https://github.com/ChrisB007/onboarding',
     website: 'https://data-collector.netlify.app/',
