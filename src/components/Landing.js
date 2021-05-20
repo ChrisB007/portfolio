@@ -14,7 +14,7 @@ const features = [
   },
   {
     name: 'RiddleMeThis',
-    description: 'From easy to hard, take a moment to solve these interesting riddles.',
+    description: 'Well formatted REST API that serves interesting, and yes funny riddles.',
     image: "/images/riddleme.png",
     github: 'url',
     website: 'url',
