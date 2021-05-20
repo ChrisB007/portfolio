@@ -13,12 +13,12 @@ const features = [
     tech: 'Tech: Vanilla JS, Bootstrap, CSS'
   },
   {
-    name: 'tuberDome',
-    description: 'Connect directly with and sponsor creators on social media platforms.',
-    image: "/images/tuberdome.png",
+    name: 'RiddleMeThis',
+    description: 'From easy to hard, take a moment to solve these interesting riddles.',
+    image: "/images/riddleme.png",
     github: 'url',
     website: 'url',
-    tech: 'Tech: NextJS, DatoCMS'
+    tech: 'Tech: ReactJS, ReactStrap'
   },
   {
     name: 'MentorsParlor',
@@ -34,7 +34,7 @@ const features = [
     image: "/images/projectport.png",
     github: 'https://github.com/ChrisB007/portfolio',
     website: 'https://chrisb.app',
-    tech: 'Tech: React, TailwindCSS'
+    tech: 'Tech: HTML 5 Stack, TailwindCSS'
   },
 ]
 const metrics = [
