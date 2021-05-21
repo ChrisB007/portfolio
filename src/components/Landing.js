@@ -16,8 +16,8 @@ const features = [
     name: 'RiddleMeThis',
     description: 'Well formatted REST API that serves interesting, and yes funny riddles.',
     image: "/images/riddleme.png",
-    github: 'url',
-    website: 'url',
+    github: 'https://github.com/ChrisB007/riddlemethis',
+    website: 'https://riddlemethis.vercel.app/',
     tech: 'Tech: ReactJS, ReactStrap'
   },
   {
