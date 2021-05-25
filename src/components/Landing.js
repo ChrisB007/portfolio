@@ -21,12 +21,12 @@ const features = [
     tech: 'Tech: ReactJS, ReactStrap'
   },
   {
-    name: 'MentorsParlor',
-    description: 'Find true one-on-one mentorship from experts who can relate to you.',
-    image: "/images/mentors.png",
-    github: 'url',
+    name: 'RestFUL Riddles',
+    description: 'A REST API With Node.js, Express, & MongoDB',
+    image: "/images/apiroutes.png",
+    github: 'https://github.com/ChrisB007/api-garage',
     website: 'url',
-    tech: 'Tech: NextJS, Contentful'
+    tech: 'Tech: MongoDB, Express, NodeJS'
   },
   {
     name: 'Project Portfolio',
