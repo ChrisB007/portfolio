@@ -385,11 +385,11 @@ const Landing = (props) => {
               className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8"
             >
               <h2 className="text-3xl font-extrabold text-white tracking-tight">
-                Front-End
+                Front-Stack
               </h2>
               <p className="mt-4 max-w-3xl text-lg text-gray-100">
                 Below is a list of other projects I developed using various
-                front-end technologies.
+                front-end and back-end technologies.
               </p>
               <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                 {features.map((feature) => (
