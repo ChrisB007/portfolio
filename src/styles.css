@@ -7,6 +7,10 @@
     font-family: 'Lobster Two', cursive;
 }
 
+.landing-image {
+    width: 100% ;
+    object-fit: cover;
+}
 
 svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
     position: relative;
