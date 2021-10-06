@@ -8,7 +8,8 @@
 }
 
 .landing-image {
-    width: 701px;
+    width: 701px !important;
+    object-fit: contain;
 }
 
 svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
