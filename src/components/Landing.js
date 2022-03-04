@@ -1,66 +1,66 @@
-import React from "react";
-import { Popover } from "@headlessui/react";
-import { Link } from "react-scroll";
+import React from 'react';
+import { Popover } from '@headlessui/react';
+import { Link } from 'react-scroll';
 
 const features = [
   {
-    name: "JustData",
-    description: "A simple survey form for collecting client data",
-    image: "/images/justdata.png",
-    github: "https://github.com/ChrisB007/onboarding",
-    website: "https://data-collector.netlify.app/",
-    tech: "Tech: Vanilla JS, Bootstrap, CSS",
+    name: 'JustData',
+    description: 'A simple survey form for collecting client data',
+    image: '/images/justdata.png',
+    github: 'https://github.com/ChrisB007/onboarding',
+    website: 'https://data-collector.netlify.app/',
+    tech: 'Tech: Vanilla JS, Bootstrap, CSS',
   },
   {
-    name: "TuberDome",
-    description: "A place online for sponsors and content creators.",
-    image: "/images/riddleme.png",
-    github: "https://github.com/ChrisB007/Prod-tuberDome",
-    website: "https://www.tuberdome.com/",
-    tech: "Tech: ReactJS, ReactStrap",
+    name: 'Sp nsors',
+    description: 'A place online for sponsors and content creators.',
+    image: '/images/riddleme.png',
+    github: 'https://github.com/ChrisB007/Prod-tuberDome',
+    website: 'https://www.spnsors.com/',
+    tech: 'Tech: ReactJS, ReactStrap',
   },
   {
-    name: "RestFUL Riddles",
-    description: "A REST API With Node.js, Express, & MongoDB",
-    image: "/images/apiroutes.png",
-    github: "https://github.com/ChrisB007/api-garage",
-    tech: "Tech: MongoDB, Express, NodeJS",
+    name: 'RestFUL Riddles',
+    description: 'A REST API With Node.js, Express, & MongoDB',
+    image: '/images/apiroutes.png',
+    github: 'https://github.com/ChrisB007/api-garage',
+    tech: 'Tech: MongoDB, Express, NodeJS',
   },
   {
-    name: "Project Portfolio",
-    description: "My online portfolio showcasing projects.",
-    image: "/images/projectport.png",
-    github: "https://github.com/ChrisB007/portfolio",
-    website: "https://chrisb.app",
-    tech: "Tech: HTML 5 Stack, TailwindCSS",
+    name: 'Project Portfolio',
+    description: 'My online portfolio showcasing projects.',
+    image: '/images/projectport.png',
+    github: 'https://github.com/ChrisB007/portfolio',
+    website: 'https://chrisb.app',
+    tech: 'Tech: HTML 5 Stack, TailwindCSS',
   },
 ];
 const metrics = [
-  { id: 1, stat: "NodeJS", emphasis: "Backend", rest: "https://nodejs.org/" },
+  { id: 1, stat: 'NodeJS', emphasis: 'Backend', rest: 'https://nodejs.org/' },
   {
     id: 2,
-    stat: "Python",
-    emphasis: "Backend",
-    rest: "https://www.python.org/",
+    stat: 'Python',
+    emphasis: 'Backend',
+    rest: 'https://www.python.org/',
   },
   {
     id: 3,
-    stat: "NoSQL",
-    emphasis: "Backend",
-    rest: "https://en.wikipedia.org/wiki/NoSQL",
+    stat: 'NoSQL',
+    emphasis: 'Backend',
+    rest: 'https://en.wikipedia.org/wiki/NoSQL',
   },
   {
     id: 4,
-    stat: "SQL",
-    emphasis: "Backend",
-    rest: "https://en.wikipedia.org/wiki/SQL",
+    stat: 'SQL',
+    emphasis: 'Backend',
+    rest: 'https://en.wikipedia.org/wiki/SQL',
   },
 ];
 const footerNavigation = {
   social: [
     {
-      name: "LinkedIn",
-      href: "https://www.linkedin.com/in/chris-bitoye-196b92207",
+      name: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/chris-bitoye-196b92207',
       icon: (props) => (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,8 +73,8 @@ const footerNavigation = {
       ),
     },
     {
-      name: "Twitter",
-      href: "https://twitter.com/ChrisBitoy",
+      name: 'Twitter',
+      href: 'https://twitter.com/ChrisBitoy',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -82,8 +82,8 @@ const footerNavigation = {
       ),
     },
     {
-      name: "GitHub",
-      href: "https://github.com/ChrisB007",
+      name: 'GitHub',
+      href: 'https://github.com/ChrisB007',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -129,7 +129,7 @@ const Landing = (props) => {
                 <div className="absolute inset-0">
                   <div
                     className="absolute inset-0 bg-gradient-to-r from-gray-400 via-gray-600 to-gray-900"
-                    style={{ mixBlendMode: "multiply" }}
+                    style={{ mixBlendMode: 'multiply' }}
                   />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
@@ -456,7 +456,7 @@ const Landing = (props) => {
                       <span className="mt-1 block text-base text-gray-300">
                         <span className="font-medium text-white">
                           {item.emphasis}
-                        </span>{" "}
+                        </span>{' '}
                         {item.rest}
                       </span>
                     </p>
