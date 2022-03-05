@@ -11,12 +11,14 @@ const features = [
     website: 'https://data-collector.netlify.app/',
     tech: 'Tech: Vanilla JS, Bootstrap, CSS',
   },
+
   {
-    name: 'Sp nsors',
-    description: 'A place online for sponsors and content creators.',
-    image: '/images/riddleme.png',
-    github: 'https://github.com/ChrisB007/Prod-tuberDome',
-    website: 'https://www.spnsors.com/',
+    name: 'FluidFlats',
+    description:
+      'Platform that offers real estate renters the freedom to live anywhere without constraint. The site was developed with NextJS, MongoDB, and tailwindcss.',
+    image: '/images/moodflics.png',
+    github: 'https://github.com/ChrisB007/ProdFluidFlats',
+    website: 'https://www.fluidflats.com/',
     tech: 'Tech: ReactJS, ReactStrap',
   },
   {
@@ -338,23 +340,22 @@ const Landing = (props) => {
                     </div>
                     <div className="mt-6">
                       <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                        FluidFlats
+                        Sp nsors
                       </h2>
                       <p className="mt-4 text-lg text-gray-500">
-                        Platform that offers real estate renters the freedom to
-                        live anywhere without constraint. The site was developed
-                        with NextJS, MongoDB, and tailwindcss.
+                        A platform for sponsors and content creators.
                       </p>
                       <div className="mt-6">
                         <a
-                          href="https://www.fluidflats.com/"
+                          href="https://www.spnsors.com/"
                           target="blank"
                           className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                         >
                           Visit Project site
                         </a>
+
                         <a
-                          href="https://github.com/ChrisB007/ProdFluidFlats"
+                          href="https://github.com/ChrisB007/Prod-tuberDome"
                           target="blank"
                           className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                         >
@@ -368,7 +369,7 @@ const Landing = (props) => {
                   <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                     <img
                       className="landing-image w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="/images/moodflics.png"
+                      src="/images/riddleme.png"
                       alt="Customer profile user interface"
                     />
                   </div>
@@ -388,7 +389,7 @@ const Landing = (props) => {
               </h2>
               <p className="mt-4 max-w-3xl text-lg text-gray-100">
                 Below is a list of other projects I developed using various
-                front-end and back-end technologies.
+                End-to-end technologies.
               </p>
               <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                 {features.map((feature) => (
