@@ -4,55 +4,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
 
 .logo {
-    font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster Two', cursive;
 }
 
 .landing-image {
-    width: 100% ;
-    object-fit: cover;
+  width: 665px !important;
+  object-fit: contain;
+  margin: auto;
 }
 
 svg.flex.items-center.justify-center.animate-bounce.w-6.h-6.text-white {
-    position: relative;
-    left: 100%;
+  position: relative;
+  left: 100%;
 }
 
 .frontendbg {
-    background-color: #f05454;
+  background-color: #f05454;
 }
 
 .backendbg {
-    background-color: #111827;
+  background-color: #111827;
 }
 
 #tofrontend,
 #tobackend {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .contactform {
-    margin: auto;
-    top: 18%;
+  margin: auto;
+  top: 18%;
 }
 
 .visitsite {
-    background-color: #495464;
+  background-color: #495464;
 }
 
 .github {
-    background-color: #000;
+  background-color: #000;
 }
 
 .projend {
-    width: 65%;
-    margin: auto;
-    height: 115px;
+  width: 65%;
+  margin: auto;
+  height: 115px;
 }
 
 .frontbutton {
-    background-color: #B91C1B;
-    width: 110px;
-    height: 33px;
-    border-radius: 7px;
-    margin: 10px auto;
+  background-color: #b91c1b;
+  width: 110px;
+  height: 33px;
+  border-radius: 7px;
+  margin: 10px auto;
 }

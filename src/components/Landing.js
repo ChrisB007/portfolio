@@ -15,7 +15,7 @@ const features = [
   {
     name: 'FluidFlats',
     description:
-      'Platform that offers real estate renters the freedom to live anywhere without constraint. The site was developed with NextJS, MongoDB, and tailwindcss.',
+      'Platform that offers real estate renters the freedom to live anywhere.',
     image: '/images/moodflics.png',
     github: 'https://github.com/ChrisB007/ProdFluidFlats',
     website: 'https://www.fluidflats.com/',
@@ -308,7 +308,7 @@ const Landing = (props) => {
                 <div className="mt-12 sm:mt-16 lg:mt-0">
                   <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                     <img
-                      className="landing-image w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                      className="landing-image sm:w-3/4 w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                       src="/images/ptradeport.png"
                       alt="Inbox user interface"
                     />
@@ -368,8 +368,8 @@ const Landing = (props) => {
                 <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
                   <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                     <img
-                      className="landing-image w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="/images/riddleme.png"
+                      className="landing-image sm:w-3/4 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                      src="/images/spons.png"
                       alt="Customer profile user interface"
                     />
                   </div>
