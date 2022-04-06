@@ -15,14 +15,14 @@ const features = [
   {
     name: 'Mentors Parlor',
     description: 'Platform that connects Mentees with Mentors.',
-    image: '/images/moodflics.png',
+    image: '/images/mentrosparlor.png',
     github: 'https://github.com/ChrisB007/mentorsfrontend',
     website: 'https://www.mentorsparlor.com/',
     tech: 'Tech: ReactJS, NextJS',
   },
   {
     name: 'Rick & Morty',
-    description: 'A simple Rick & Morty App',
+    description: 'A simple app hosting Rick & Morty characters',
     image: '/images/rickMorty.png',
     github: 'https://github.com/ChrisB007/RickMorty',
     website: 'https://rick-morty-five-pi.vercel.app/',
@@ -30,7 +30,7 @@ const features = [
   },
   {
     name: 'Pixabay App project',
-    description: 'Pixabay API online portfolio.',
+    description: 'Search through Pixabay API online portfolio.',
     image: '/images/pixabay.png',
     github: 'https://github.com/ChrisB007/pixAPI',
     website: 'https://pix-api.vercel.app/',
