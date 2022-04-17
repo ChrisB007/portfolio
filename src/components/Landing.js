@@ -13,11 +13,11 @@ const features = [
   },
 
   {
-    name: 'Mentors Parlor',
-    description: 'Platform that connects Mentees with Mentors.',
-    image: '/images/mentrosparlor.png',
-    github: 'https://github.com/ChrisB007/mentorsfrontend',
-    website: 'https://www.mentorsparlor.com/',
+    name: 'Sp nsors',
+    description: 'A platform for sponsors and content creators.',
+    image: '/images/spons.png',
+    github: 'https://github.com/ChrisB007/Prod-tuberDome',
+    website: 'https://www.spnsors.com/',
     tech: 'Tech: ReactJS, NextJS',
   },
   {
@@ -340,14 +340,14 @@ const Landing = (props) => {
                     </div>
                     <div className="mt-6">
                       <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                        Sp nsors
+                        Mentors Parlor
                       </h2>
                       <p className="mt-4 text-lg text-gray-500">
-                        A platform for sponsors and content creators.
+                        A platform connecting Mentors with Mentees.
                       </p>
                       <div className="mt-6">
                         <a
-                          href="https://www.spnsors.com/"
+                          href="https://www.mentorsparlor.com/"
                           target="blank"
                           className="visitsite inline-flex flex mr-8 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                         >
@@ -355,7 +355,7 @@ const Landing = (props) => {
                         </a>
 
                         <a
-                          href="https://github.com/ChrisB007/Prod-tuberDome"
+                          href="//github.com/ChrisB007/mentorsfrontend"
                           target="blank"
                           className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                         >
@@ -369,7 +369,7 @@ const Landing = (props) => {
                   <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                     <img
                       className="landing-image sm:w-3/4 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                      src="/images/spons.png"
+                      src="/images/mentrosparlor.png"
                       alt="Customer profile user interface"
                     />
                   </div>
