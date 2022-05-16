@@ -1,12 +1,7 @@
 const main = () => {
-    const clicker = document.getElementById("tofrontend");
+  const clicker = document.getElementById('tofrontend');
 
-    clicker.addEventListener('click', ()  =>  {
-        console.log('I got clicked');
-    })
-}
+  clicker.addEventListener('click', () => {});
+};
 
-export default main
-
-
-
+export default main;
