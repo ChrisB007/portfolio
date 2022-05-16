@@ -110,7 +110,7 @@ const Landing = (props) => {
                 <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                   <div className="flex justify-start lg:w-0 lg:flex-1">
                     <a href="/">
-                      <span className="sr-only">Workflow</span>
+                      <span className="sr-only">Portfolio</span>
                       <p className="logo text-4xl shadow-sm text-gray-800">
                         &lt;chrisBitoye &frasl;&gt;
                       </p>
@@ -385,7 +385,7 @@ const Landing = (props) => {
               className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8"
             >
               <h2 className="text-3xl font-extrabold text-white tracking-tight">
-                Front-Stack
+                Full-Stack
               </h2>
               <p className="mt-4 max-w-3xl text-lg text-gray-100">
                 Below is a list of other projects I developed using various
