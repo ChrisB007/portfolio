@@ -21,7 +21,7 @@ const features = [
   },
 
   {
-    name: 'Rick & Morty',
+    name: 'Rick and Morty',
     description: 'A simple app hosting Rick & Morty characters',
     image: '/images/rickMorty.png',
     github: 'https://github.com/ChrisB007/RickMorty',
