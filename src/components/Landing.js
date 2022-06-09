@@ -4,22 +4,22 @@ import { Link } from 'react-scroll';
 
 const features = [
   {
-    name: 'JustData',
-    description: 'A simple survey form for collecting client data',
-    image: '/images/justdata.png',
-    github: 'https://github.com/ChrisB007/onboarding',
-    website: 'https://data-collector.netlify.app/',
-    tech: 'Tech: Vanilla JS, Bootstrap, CSS',
+    name: 'Mentors Parlor',
+    description: 'A platform where Mentees can connect with Mentors.',
+    image: '/images/mentrosparlor.png',
+    github: 'https://github.com/ChrisB007/mentorsfrontend',
+    website: 'https://www.mentorsparlor.com/',
+    tech: 'Tech: ReactJS, NextJS',
   },
-
   {
-    name: 'Sp nsors',
-    description: 'A platform for sponsors and content creators.',
-    image: '/images/spons.png',
-    github: 'https://github.com/ChrisB007/Prod-tuberDome',
+    name: 'sPnsors',
+    description: 'Providing merchandises to Creators and Podcasters.',
+    image: '/images/morspns.png',
+    github: 'https://github.com/ChrisB007/Sponsors-commerce',
     website: 'https://www.spnsors.com/',
     tech: 'Tech: ReactJS, NextJS',
   },
+
   {
     name: 'Rick & Morty',
     description: 'A simple app hosting Rick & Morty characters',
@@ -35,6 +35,14 @@ const features = [
     github: 'https://github.com/ChrisB007/pixAPI',
     website: 'https://pix-api.vercel.app/',
     tech: 'Tech: ReactJS, TailwindCSS',
+  },
+  {
+    name: 'JustData',
+    description: 'A simple survey form for collecting client data',
+    image: '/images/justdata.png',
+    github: 'https://github.com/ChrisB007/onboarding',
+    website: 'https://data-collector.netlify.app/',
+    tech: 'Tech: Vanilla JS, Bootstrap, CSS',
   },
 ];
 const metrics = [
@@ -355,7 +363,7 @@ const Landing = (props) => {
                         </a>
 
                         <a
-                          href="//github.com/ChrisB007/mentorsfrontend"
+                          href="https://github.com/ChrisB007/mentorsfrontend"
                           target="blank"
                           className="github inline-flex flex space-x-4 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white"
                         >
